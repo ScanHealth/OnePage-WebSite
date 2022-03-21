@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>ScanHealth | L'application tendance du moment!</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
+
+    <!-- Styles -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+        integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="./styles.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Nunito', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="antialiased bg-white">
+    <div class="offcanvas offcanvas-end btn-SecondaryColor" tabindex="-1" id="offcanvas" data-bs-keyboard="false"
+        data-bs-backdrop="false" style="width: 50%">
+        <div class="offcanvas-header">
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body px-0">
+            <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-start" id="menu">
+                <li class="nav-item">
+                    <a href="#header" class="nav-link text-truncate">
+                        <i class="fs-5 bi-house"></i><span class="ms-1 text-white fw-bold">Accueil</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#service" class="nav-link text-truncate">
+                        <i class="fs-5 bi-speedometer2"></i><span class="ms-1 text-white fw-bold">À Propos</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#footer" class="nav-link text-truncate">
+                        <i class="fs-5 bi-table"></i><span class="ms-1 text-white fw-bold">Contact</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <nav id="navbar_top" class="navbar navbar-light top-0 z-50 fixed navbar-expand-lg custom-nav fixed-top">
+        <!-- Container wrapper -->
+        <div class="container-fluid">
+            <a class="navbar-brand pr-5 responsive-logo" href="#">
+                <img src="./images/logo-scanhealth.png" height="50" alt="ScanHealth LOGO" loading="lazy">
+            </a>
+            <!-- Toggle button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Collapsible wrapper -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- Navbar brand -->
+                <a class="navbar-brand pr-5" href="#">
+                    <img src="./images/logo-scanhealth.png" height="50" alt="ScanHealth LOGO" loading="lazy" />
+                </a>
+                <!-- Left links -->
+                <ul class="navbar-nav ms-5 mb-2 mb-lg-0 pe-5 align-items-center" id="nav">
+                    <li class="nav-item px-2">
+                        <a class="navbar-brand fw-bold active" aria-current="page" href="#header">Accueil</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="navbar-brand fw-bold" href="#service">A Propos</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="navbar-brand fw-bold" href="#footer">Contact</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+        </div>
+    </nav>
+
+    <header id="header" class="header">
+        <div class="header-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 align-self-middle">
+                        <div class="text-container">
+                            <h1 class="fw-bold  pb-3"><span class="primarycolor bold">Grace a ScanHealth Scan tes
+                                    produits et suis ton
+                                    alimentation
+                                </span> <span class="secondarycolor">en direct et facilement<span></h1>
+
+                            <a href="https://github.com/ScanHealth" type="button"
+                                class="btn rounded-pill btn-SecondaryColor fw-bold text-white pe-4">
+                                <span class="btn-label nobg ms-2"><i class="fa-solid fa-apple-whole"></i>
+                                </span>Open-source - Github</a>
+
+                        </div> <!-- end of text-container -->
+                    </div> <!-- end of col -->
+                    <div class="col-lg-6">
+                        <div class="image-container">
+                            <img class="img-fluid" src="./images/undraw_online_groceries.svg" alt="alternative">
+                        </div> <!-- end of image-container -->
+                    </div> <!-- end of col -->
+                </div> <!-- end of row -->
+            </div> <!-- end of container -->
+        </div>
+    </header>
+
+    <div class="section md-padding bg-white mt-5 anchor" id="service-bg">
+
+        <!-- Container -->
+        <div class="container">
+
+            <!-- Row -->
+            <div class="row justify-content-center">
+
+                <!-- Section header -->
+                <div class="col-lg-12 text-center">
+                    <h1 class="thing-with-anchor title primarycolor fw-bold" id="service">Services</h1>
+                    <p class="p-heading p-large">Depuis 2021, notre priorité est de proposer un service fiable et rapide
+                        ainsi qu'une interface simple d'utilisation.</p>
+                </div>
+                <!-- /Section header -->
+
+                <div class="row justify-content-center">
+                    <div class="col-md-5 col-lg-4 col-xl-3">
+                        <div class="card text-center border0 shadow-cards card-width-radius zoom">
+                            <div class="card-body">
+                                <div class="circle-image mt-4" id="circleimg-card-1">
+                                    <img class="card-image cardimg" src="./images/cadenas.png" alt="alternative">
+                                </div>
+                                <h4 class="card-title secondarycolor fw-bold">Service Sécurisé</h4>
+                                <p class="card-text-color">Convertissez en toute sénérité via votre espace client.
+                                    Chaque code et transaction est crypté et sécurisé dès son envoi.</p>
+                                <div class="color-bar-end" id="color-bar-1"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-5 col-lg-4 col-xl-3">
+                        <div class="card text-center border0 shadow-cards card-width-radius zoom" id="middle-card">
+                            <div class="card-body">
+                                <div class="circle-image mt-4" id="circleimg-card-2">
+                                    <img class="card-image cardimg" src="storage/images/rush.png" alt="alternative">
+                                </div>
+                                <h4 class="card-title secondarycolor fw-bold">Service ultra rapide 24H</h4>
+                                <p class="card-text-color">Vos fonds seront transferés automatiquement en 24H maximum
+                                    sur votre compte PayPal</p>
+                                <div class="color-bar-end" id="color-bar-2"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-5 col-lg-4 col-xl-3">
+                        <div class="card text-center border0 shadow-cards card-width-radius zoom">
+                            <div class="card-body">
+                                <div class="circle-image mt-4" id="circleimg-card-3">
+                                    <img class="card-image cardimg" id="cardimg-3" src="./images/aide.png"
+                                        alt="alternative">
+                                </div>
+                                <h4 class="card-title secondarycolor fw-bold">Service assistance 24H</h4>
+                                <p class="card-text-color">En cas de problème l'assistance vous soutiendra en moins de
+                                    24 H</p>
+                                <div class="color-bar-end" id="color-bar-3"></div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+            <!-- /Row -->
+
+        </div>
+        <!-- /Container -->
+
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start text-muted" id="footer" style="padding-top: 7rem;">
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 ">
+
+
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Section: Links  -->
+        <section class="">
+            <div class="container text-center text-md-start mt-13">
+                <!-- Grid row -->
+                <div class="row mt-10 align-items-end text-dark">
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 text-center mt-10 desc-scanhealth">
+                        <!-- Content -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            <i class="fas fa-credit-card me-2"></i>ScanHealth
+                        </h6>
+                        <p>
+                            ScanHealth est un service fiable, rapide et sécurisé permetant de scanner vos produits afin
+                            d'afficher les informations sur ce derniers, et vous permet également de suivre votre
+                            alimentation.
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 text-center mt-10 contact-footer">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Contact
+                        </h6>
+                        <p><i class="fas fa-home me-3"></i>Le Puy-en-Velay, FR</p>
+                        <p>
+                            <i class="fas fa-envelope me-3"></i>
+                            contact@scanhealth.fr
+                        </p>
+                        <!--<p><i class="fas fa-print me-3"></i> Null</p>-->
+                    </div>
+
+                    <!-- Section: Social media -->
+                    <div
+                        class="d-flex flex-column mt-5 col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 d-flex align-items-center pb-5 social-link-footer justify-content-center">
+                        <!-- Facebook -->
+
+                        <!-- Github -->
+                        <a class="btn btn-dark btn-outline-light border-1 border-dark btn-floating m-1"
+                            href="https://github.com/KevinDavai" role="button"><i
+                                class="fab fa-github pe-2"></i><span>Kevin
+                                Davailles</span></a>
+                        <!-- Github -->
+                        <a class="btn btn-dark btn-outline-light border-1 border-dark btn-floating m-1"
+                            href="https://elisa-braun.fr/" role="button"><i
+                                class="fa-solid fa-broom pe-2"></i><span>Elisa
+                                Braun</span></a>
+                        <!-- Github -->
+                        <a class="btn btn-dark btn-outline-light border-1 border-dark btn-floating m-1"
+                            href="https://github.com/orgs/ScanHealth/people/recovizzi" role="button"><i
+                                class="fab fa-github pe-2"></i><span>Remi
+                                Covizi</span></a>
+                    </div>
+                    <!-- Section: Social media -->
+
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid rows -->
+            </div>
+        </section>
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <div class="text-center p-4 text-dark">
+            © 2021 Copyright:
+            <a class="text-reset fw-bold" href="https://github.com/ScanHealth">ScanHealth </a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"
+        integrity="sha512-2rNj2KJ+D8s1ceNasTIex6z4HWyOnEYLVC3FigGOmyQCZc2eBXKgOxQmo3oKLHyfcj53uz4QMsRCWNbLd32Q1g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+
+
+
+
+
+</body>
+
+</html>
+
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        window.addEventListener('scroll', function () {
+            if (window.scrollY > 60) {
+                document.getElementById('navbar_top').classList.add('shadow-cards', 'bg-white', 'navbar-collaps');
+            } else {
+                document.getElementById('navbar_top').classList.remove('shadow-cards', 'bg-white', 'navbar-collaps');
+            }
+        });
+    });
+
+
+    // Get the container element
+    var textItems = document.getElementsByClassName("navbar-brand");
+
+    // Loop through the buttons and add the active class to the current/clicked button
+    for (var i = 0; i < textItems.length; i++) {
+        textItems[i].addEventListener("click", function () {
+            var current = document.getElementsByClassName("active");
+            current[0].className = current[0].className.replace(" active", "");
+            this.className += " active";
+        });
+    }
+</script>
