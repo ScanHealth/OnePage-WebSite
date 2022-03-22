@@ -31102,4 +31102,18 @@ fieldset[disabled] .btn-yahoo.focus {
   background-color: #fff;
 }
 
+.btn-blue-green{
+  background-color: #4B9E92;
+}
+
+.btn-outline-lumiere {
+  color: #fff;
+  border-color:#93D9CF;
+}
+.btn-outline-lumiere:hover {
+  color: #000;
+  background-color: #93D9CF;
+  border-color: #93D9CF;
+}
+
 
